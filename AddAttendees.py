@@ -36,7 +36,7 @@ password = browser.find_element(By.ID, "password").send_keys(pwd)
 time.sleep(2)
 
 # Clicks "Login" button
-loginButton = browser.find_element(By.XPATH, '//*[@id="root"]/div/div[2]/div/div/div/div[1]/div/main/div/div[1]/div/div[2]/div/form/div[4]/div/button')
+loginButton = browser.find_element(By.XPATH, '//*[@id="edsModalContentChildren"]/div/div[2]/div/div/div/button')
 loginButton.click()
 time.sleep(10)
 
